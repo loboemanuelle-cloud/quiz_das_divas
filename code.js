@@ -35,7 +35,7 @@ const questions = [
     answers: [
       "Katy Perry",
       "Madonna",
-      "Sabrina Carpinter",
+      "Sabrina Carpenter",
       "P!nk"
     ],
     correct: 2
