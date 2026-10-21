@@ -11,10 +11,10 @@ const questions = [
     correct: 0
   },
   {
-    question: "🎀 Qual diva lançou o álbum 'Lemonade'?",
+    question: "🎀 Qual diva lançou o álbum 'The Rise and Fall of a Midwest Princess'?",
     answers: [
       "Taylor Swift",
-      "Beyoncé",
+      "Chappell Roan",
       "Dua Lipa",
       "Miley Cyrus"
     ],
@@ -31,17 +31,17 @@ const questions = [
     correct: 1
   },
   {
-    question: "🪩 Quem canta o hit 'Bad Romance'?",
+    question: "🪩 Quem canta o hit 'When did you get hot'?",
     answers: [
       "Katy Perry",
       "Madonna",
-      "Lady Gaga",
+      "Sabrina Carpinter",
       "P!nk"
     ],
     correct: 2
   },
   {
-    question: "💖 Qual diva lançou o álbum '1989'?",
+    question: "💖 Quemss lançou o álbum '1989'?",
     answers: [
       "Taylor Swift",
       "Olivia Rodrigo",
