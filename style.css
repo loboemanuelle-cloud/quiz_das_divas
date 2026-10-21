@@ -314,3 +314,49 @@ button:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Estrelinhas decorativas Y2K */
+body::before,
+body::after {
+  content: "✦";
+  position: fixed;
+  color: #f5a7d7;
+  font-size: 2rem;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+  animation: sparkle 3s ease-in-out infinite;
+}
+
+body::before {
+  top: 12%;
+  left: 8%;
+}
+
+body::after {
+  content: "✧";
+  top: 75%;
+  right: 9%;
+  color: #c6a8ff;
+  font-size: 2.5rem;
+  animation-delay: 1s;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.85) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.15) rotate(15deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  body::after {
+    animation: none;
+  }
+}
