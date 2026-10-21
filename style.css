@@ -360,3 +360,101 @@ body::after {
     animation: none;
   }
 }
+
+/* Céu de estrelinhas Y2K */
+.stars {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+
+  background-image:
+    radial-gradient(circle, #ffffff 1px, transparent 1.5px),
+    radial-gradient(circle, #f5a7d7 1.5px, transparent 2px),
+    radial-gradient(circle, #c6a8ff 1px, transparent 1.5px),
+    radial-gradient(circle, #ffffff 1px, transparent 2px);
+
+  background-size:
+    83px 91px,
+    137px 127px,
+    109px 113px,
+    173px 157px;
+
+  background-position:
+    0 0,
+    35px 52px,
+    70px 20px,
+    15px 85px;
+
+  opacity: 0.75;
+}
+
+/* Estrelinhas maiores espalhadas */
+.stars::before,
+.stars::after {
+  content: "✦  ✧  ⋆  ✦  ✧  ⋆  ✦  ✧";
+  position: absolute;
+  width: 100%;
+  color: #f5a7d7;
+  font-size: 21px;
+  letter-spacing: 45px;
+  line-height: 110px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+.stars::before {
+  top: 2%;
+  left: 2%;
+  text-shadow:
+    120px 100px #c6a8ff,
+    280px 250px #ffffff,
+    450px 80px #f5a7d7,
+    600px 350px #c6a8ff,
+    800px 150px #ffffff,
+    950px 400px #f5a7d7;
+}
+
+.stars::after {
+  top: 35%;
+  left: 10%;
+  color: #c6a8ff;
+  animation-delay: 2s;
+  text-shadow:
+    100px 180px #ffffff,
+    300px 50px #f5a7d7,
+    500px 220px #c6a8ff,
+    700px 100px #ffffff,
+    900px 250px #f5a7d7;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
+
+/* Mantém o quiz na frente das estrelas */
+.container,
+.quiz-container,
+main,
+header,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stars::before,
+  .stars::after {
+    animation: none;
+  }
+}
