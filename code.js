@@ -138,7 +138,7 @@ const questions = [
       "Ariana Grande",
       "Miley Cyrus"
     ],
-       correct: 3
+       correct: 1
      },
      {
     question: "Qual dessas musicas e da Chappell Roan?",
