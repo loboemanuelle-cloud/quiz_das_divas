@@ -1,7 +1,7 @@
 
 const questions = [
   {
-    question: "💋 Quem é conhecida como a Princess of Pop?",
+    question: "Quem é conhecida como a Princess of Pop?",
     answers: [
       "Britney Spears",
       "Lady Gaga",
@@ -11,7 +11,7 @@ const questions = [
     correct: 0
   },
   {
-    question: "🎀 Qual diva lançou o álbum 'The Rise and Fall of a Midwest Princess'?",
+    question: "Qual diva lançou o álbum 'The Rise and Fall of a Midwest Princess'?",
     answers: [
       "Taylor Swift",
       "Chappell Roan",
@@ -21,7 +21,7 @@ const questions = [
     correct: 1
   },
   {
-    question: "💿 Qual é o nome do fandom da Lady Gaga?",
+    question: "Qual é o nome do fandom da Lady Gaga?",
     answers: [
       "Swifties",
       "Little Monsters",
@@ -31,7 +31,7 @@ const questions = [
     correct: 1
   },
   {
-    question: "🪩 Quem canta o hit 'When did you get hot'?",
+    question: "Quem canta o hit 'When did you get hot'?",
     answers: [
       "Katy Perry",
       "Madonna",
@@ -41,14 +41,114 @@ const questions = [
     correct: 2
   },
   {
-    question: "💖 Quem lançou o álbum '1989'?",
+    question: "Quem lançou o álbum '1989'?",
     answers: [
       "Taylor Swift",
       "Olivia Rodrigo",
       "Sabrina Carpenter",
       "Selena Gomez"
     ],
-    correct: 0
+     correct: 0
+  },
+     {
+    question: "Qual destas musicas é um hit de Avril Lavigne?",
+    answers: [
+      "Complicated",
+      "Expetations",
+      "Let me love you",
+      "Vogue"
+    ],
+     correct: 0
+     },
+     {
+    question: "Qual cantora lançou Shake It Off?",
+    answers: [
+      "Kate Perry",
+      "Lady Gaga",
+      "Taylor Swift",
+      "Ariana Grande"
+    ],
+      correct: 2
+     },
+     {
+    question: "Qual é o nome do fandom da Ariana Grande?",
+    answers: [
+      "Swifties",
+      "Little Monsters",
+      "Arianators",
+      "Navy"
+    ],
+      correct: 2
+     },
+     {
+    question: "Qual é o nome do álbum de estreia de Amy Winehouse?",
+    answers: [
+      "Back to Black",
+      "Frank",
+      "Lioness",
+      "Rehab"
+    ],
+      correct: 0
+     },
+     {
+    question: "Qual cantora cantou o hit da copa Waka Waka?",
+    answers: [
+      "Jennifer Lopez",
+      "Shakira",
+      "Beoncé",
+      "Alicia Keya"
+    ],
+      correct: 1
+     },
+     {
+    question: "Quem canta Umbrella?",
+    answers: [
+      "Beyoncé",
+      "Rihanna",
+      "Britney Spears",
+      "Lady Gaga"
+    ],
+      correct: 1
+     },
+     {
+    question: "Quem canta Single Ladies?",
+    answers: [
+      "Jennifer Lopez",
+      "Christina Aguilera",
+      "Beyoncé",
+      "Rihanna"
+    ],
+       correct: 2
+     },
+     {
+    question: "Quem canta o hit Thank u next?",
+    answers: [
+      "Gwen Stefani",
+      "Beyoncé",
+      "Ariana Grande",
+      "Taylor Swift"
+    ],
+        correct: 2
+     },
+     {
+    question: "Qual cantora lançou Cool for the Summer?",
+    answers: [
+      "Selena Gomez",
+      "Demi Lovato",
+      "Ariana Grande",
+      "Miley Cyrus"
+    ],
+       correct: 3
+     },
+     {
+    question: "Qual dessas musicas e da Chappell Roan?",
+    answers: [
+      "Please please please",
+      "New Rules",
+     "Lady Gaga",
+      "Pink Pony Club"
+    ],
+    correct: 3
   }
 ];
 
