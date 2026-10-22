@@ -41,7 +41,7 @@ const questions = [
     correct: 2
   },
   {
-    question: "💖 Quemss lançou o álbum '1989'?",
+    question: "💖 Quem lançou o álbum '1989'?",
     answers: [
       "Taylor Swift",
       "Olivia Rodrigo",
