@@ -213,7 +213,7 @@ function checkAnswer(index, selectedButton) {
 
   if (index === q.correct) {
     points++;
-    feedbackEl.textContent = "SLAYYY! ✨ Você acertou! 💅";
+    feedbackEl.textContent = "SLAYYY! ✨ Você acertou!";
   } else {
     selectedButton.classList.add("wrong");
 
@@ -242,15 +242,15 @@ function showResult() {
   let title;
   let message;
 
-  if (points === 5) {
-    title = "POP CULTURE ICON 💎";
+  if (points === 15) {
+    title = "POP CULTURE ICON ";
     message =
       "Você é literalmente a enciclopédia das divas pop!";
-  } else if (points >= 3) {
-    title = "IT GIRL EM ASCENSÃO 💖";
+  } else if (points >= 7) {
+    title = "IT GIRL EM ASCENSÃO ";
     message = "Seu lugar no tapete rosa está garantido!";
   } else {
-    title = "FUTURA POP PRINCESS 🎀";
+    title = "FUTURA POP PRINCESS ";
     message =
       "Hora de montar sua playlist e maratonar os clipes!";
   }
